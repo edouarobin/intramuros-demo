@@ -1,0 +1,31 @@
+// @flow
+/* eslint-disable no-undef */
+
+declare type ApiPointOfInterestType = {
+  title: string,
+  description: string,
+  category: string | null,
+  created_at: string,
+  updated_at: string,
+  city: string,
+  image1: string,
+  image2: string | null,
+  image3: string | null,
+  image4: string | null,
+  image5: string | null,
+  image6: string | null,
+  image7: string | null,
+  image8: string | null,
+  image9: string | null,
+  image10: string | null,
+  address_label: string,
+  latitude: number,
+  longitude: number,
+  id: number,
+  url1: string,
+  url2: string,
+  url3: string,
+  schedule: string,
+  price: string,
+  croppedData: string,
+};

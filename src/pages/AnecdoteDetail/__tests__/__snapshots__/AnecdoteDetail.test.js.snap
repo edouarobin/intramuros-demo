@@ -1,0 +1,258 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Fully renders the AnecdoteDetails page 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "white",
+      "flexGrow": 1,
+    }
+  }
+>
+  <BVLinearGradient
+    colors={
+      Array [
+        3858759680,
+        16777215,
+      ]
+    }
+    end={undefined}
+    locations={null}
+    start={undefined}
+    style={
+      Object {
+        "flex": 1,
+        "height": 320.16,
+        "position": "absolute",
+        "width": "100%",
+        "zIndex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "paddingHorizontal": 8,
+          "paddingTop": 30,
+        }
+      }
+    >
+      <View
+        accessibilityComponentType={undefined}
+        accessibilityLabel={undefined}
+        accessibilityTraits={undefined}
+        accessible={true}
+        collapsable={undefined}
+        hitSlop={undefined}
+        isTVSelectable={true}
+        nativeID={undefined}
+        onLayout={undefined}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+            "width": 100,
+          }
+        }
+        testID={undefined}
+        tvParallaxProperties={undefined}
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "width": 100,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={false}
+            disabled={false}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 36,
+                },
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "color": "black",
+                    "marginHorizontal": 8,
+                  },
+                  Object {
+                    "color": "white",
+                  },
+                ],
+                Object {
+                  "fontFamily": "FontAwesome",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+              ]
+            }
+          >
+            
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "color": "black",
+                  "fontSize": 16,
+                },
+                Object {
+                  "color": "white",
+                },
+              ]
+            }
+          >
+            Retour
+          </Text>
+        </View>
+      </View>
+    </View>
+  </BVLinearGradient>
+  <RCTScrollView
+    contentContainerStyle={
+      Object {
+        "backgroundColor": "white",
+        "flexGrow": 1,
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "height": 622.3000000000001,
+            "justifyContent": "flex-end",
+            "width": "100%",
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "uri": "https://elasticbeanstalk-eu-west-2-309758705895.s3.amazonaws.com/anecdotes/6cba01e87dab75af0bf4e7b662212ce2_Recette___D%C3%A9couvrez_.jpg",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "bottom": 0,
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              Object {
+                "height": 622.3000000000001,
+                "width": "100%",
+              },
+              undefined,
+            ]
+          }
+        />
+        <BVLinearGradient
+          colors={
+            Array [
+              16777215,
+              3858759680,
+            ]
+          }
+          end={undefined}
+          locations={null}
+          start={undefined}
+          style={
+            Object {
+              "flex": 1,
+              "height": "40%",
+              "justifyContent": "flex-end",
+              "position": "absolute",
+              "width": "100%",
+              "zIndex": 1,
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            disabled={false}
+            ellipsizeMode="tail"
+            numberOfLines={3}
+            style={
+              Object {
+                "backgroundColor": "transparent",
+                "color": "white",
+                "fontSize": 20,
+                "fontWeight": "bold",
+                "lineHeight": 28,
+                "marginBottom": 20,
+                "paddingHorizontal": 16,
+              }
+            }
+          >
+            Recette : La soupe angevine
+          </Text>
+        </BVLinearGradient>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "white",
+            "flex": 1,
+            "padding": 16,
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "black",
+              "fontSize": 14,
+              "lineHeight": 24,
+            }
+          }
+        >
+          Découvrez ce cocktail angevin qui perdrait de son charme si on remplaçait le cointreau par de la  liqueur. On peut remplacer le crémant par du mousseux, ce qui est moins coûteux. 
+  
+  Tout d’abord, vous devez vous munir des ingrédients suivants :
+  
+       1 bouteille de crémant de Loire
+       1 citron
+       15 cl de cointreau
+       12 cl de sirop de sucre de Cannes
+  
+  Tout en laissant la bouteille de crémant de Loire bien au frais, commencez par presser le citron
+  Découvrez ce cocktail angevin qui perdrait de son charme si on remplaçait le cointreau par de la  liqueur. On peut remplacer le crémant par du mousseux, ce qui est moins coûteux. 
+  
+  Tout d’abord, vous devez vous munir des ingrédients suivants :
+  
+       1 bouteille de crémant de Loire
+       1 citron
+       15 cl de cointreau
+       12 cl de sirop de sucre de Cannes
+        </Text>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

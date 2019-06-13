@@ -1,0 +1,33 @@
+// @flow
+/* eslint-disable no-undef */
+
+declare type EventType = {
+  title: string,
+  description: string,
+  author: string,
+  startDate: string,
+  endDate: string,
+  city: number,
+  agglo: number,
+  id: number,
+  image: string,
+  addressLabel: string,
+  latitude: number,
+  longitude: number,
+  distanceToPositionOrCity: number,
+  displayedDistanceToPositionOrCity: string,
+  url1: string,
+  url2: string,
+  url3: string,
+  schedule: string,
+  price: string,
+  category: number,
+  private: boolean,
+  organizer: number,
+  organizer_city: Number,
+  organizer_logo: string,
+  organizer_name: string,
+  organizer_type: string,
+  organizer_category_name: string,
+  organizer_category_picto: string,
+};

@@ -1,0 +1,25 @@
+// @flow
+
+export const modelizeNews = (apiNews: ApiNewsType): NewsType => ({
+  title: apiNews.title,
+  description: apiNews.description,
+  author: apiNews.author,
+  createdAt: apiNews.created_at,
+  updatedAt: apiNews.updated_at,
+  city: parseInt(apiNews.city, 10),
+  agglo: parseInt(apiNews.agglo, 10),
+  image: apiNews.image,
+  id: apiNews.id,
+  url1: apiNews.url1,
+  url2: apiNews.url2,
+  url3: apiNews.url3,
+  schedule: apiNews.schedule,
+  price: apiNews.price,
+  organizer: apiNews.organizer,
+  organizer_city: apiNews.organizer_city,
+  organizer_logo: apiNews.organizer_logo,
+  organizer_name: apiNews.organizer_name,
+  organizer_type: apiNews.organizer_type,
+  organizer_category_name: apiNews.organizer_category_name,
+  organizer_category_picto: apiNews.organizer_category_picto,
+});

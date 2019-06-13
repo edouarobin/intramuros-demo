@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Fully renders the NewsDetails page 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "white",
+      "flex": 1,
+    }
+  }
+>
+  <RCTScrollView>
+    <View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "marginHorizontal": 16,
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "black",
+              "fontSize": 20,
+              "fontWeight": "bold",
+              "lineHeight": 28,
+              "textAlign": "center",
+            }
+          }
+        >
+          News !
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "#535353",
+              "fontSize": 14,
+              "marginTop": 8,
+              "textAlign": "center",
+            }
+          }
+        >
+          Publié le 
+          14 novembre
+        </Text>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#FFD153",
+              "borderRadius": 1,
+              "height": 2,
+              "marginTop": 12,
+              "width": 96,
+            }
+          }
+        />
+      </View>
+      <Image
+        source={
+          Object {
+            "uri": "https://intramuros.cloud.bam.tech/media/news/673243e4d9232489945e19bff3ec85e9_News__dflkjs_lkj.png",
+          }
+        }
+        style={
+          Object {
+            "height": 395.52000000000004,
+            "marginTop": 23,
+            "width": "100%",
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "padding": 16,
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          disabled={false}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "black",
+              "fontSize": 14,
+              "lineHeight": 24,
+            }
+          }
+        >
+          dflkjs lkjsdl kfjsdlkj sdlk efef fsf ds f
+        </Text>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;

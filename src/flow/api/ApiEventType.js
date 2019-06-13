@@ -1,0 +1,31 @@
+// @flow
+/* eslint-disable no-undef */
+
+declare type ApiEventType = {
+  title: string,
+  description: string,
+  author: string,
+  start_date: string,
+  end_date: string,
+  city: string,
+  agglo: string,
+  id: number,
+  image: string,
+  address_label: string,
+  latitude: number,
+  longitude: number,
+  url1: string,
+  url2: string,
+  url3: string,
+  schedule: string,
+  price: string,
+  category: number,
+  private: boolean,
+  organizer: number,
+  organizer_city: Number,
+  organizer_logo: string,
+  organizer_name: string,
+  organizer_type: string,
+  organizer_category_name: string,
+  organizer_category_picto: string,
+};
